@@ -1,9 +1,9 @@
-
+import Chat from "./pages/Chat";
 
 function App() {
   return (
     <>
-      Hello World
+      <Chat/>
     </>
   );
 }
