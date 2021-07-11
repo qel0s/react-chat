@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
 }
 .navbar{
     color: white;
@@ -11,6 +15,7 @@
     justify-content: space-between;
     padding: 40px;
     border-bottom: #20182b 2px solid;
+    height: 144px;
 }
 
 .nav-left{
@@ -43,6 +48,7 @@
 
 .nav-header h1{
     color: white !important;
+    font-size: 30px;
 }
 
 .nav-pp-container{
@@ -55,10 +61,56 @@
     background: linear-gradient(90deg, rgba(16,15,24,1) 0%, rgba(21,23,39,1) 51%, rgba(16,15,24,1) 100%);
 }
 
-.chat-list{
+.chat-list-container{
     border-right: #20182b 2px solid;
+    padding: 30px;
 }   
 
-.chat-main{
+.chat-main-container{
+    padding: 30px;
+}
 
+.chat-main-container h2{
+    color: white;
+}
+
+.chat-list-header{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.chat-list-header h2{
+    color: white;
+}
+
+.chat-list-item-img{
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.chat-list-item-uname{
+    color: #ede3ff;
+}
+
+.chat-list-item-lastMessage{
+    color: gray;
+    font-size: 12px;
+}
+
+.chat-list-item{
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.chat-list-item:hover{
+    background: rgb(25,24,43);
+    background: linear-gradient(90deg, rgba(25,24,43,1) 0%, rgba(20,18,30,1) 100%);
+}
+
+.chat-list{
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 670px;
 }

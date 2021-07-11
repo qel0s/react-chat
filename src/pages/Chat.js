@@ -3,6 +3,8 @@ import { WechatOutlined , BellOutlined } from '@ant-design/icons';
 import { Row, Col } from 'antd';
 import 'antd/dist/antd.css';
 
+import userImg from '../assets/img/user.jpg'
+
 const Chat = () => {
     return (
         <div className="chat">
@@ -28,13 +30,130 @@ const Chat = () => {
             <div className="container">
                 <Row>
                     <Col span={6}> 
-                        <div className="chat-list">
-                            Chats
-                        </div>
+                        <div className="chat-list-container">
+                           <div className="chat-list-header">
+                              <h2>Chats</h2>
+                           </div>
+                           <div className="chat-list">
+
+
+
+                            <div className="chat-list-item">
+                                <Row style={{flexFlow:"row"}}>
+                                    <Col span={6}>
+                                        <img className="chat-list-item-img" src={userImg}></img>
+                                    </Col>
+                                    <Col span={20}>
+                                        <p className="chat-list-item-uname">User Name</p>
+                                        <small className="chat-list-item-lastMessage">Last message from chat</small>
+                                    </Col>
+                                </Row>
+                             </div>
+
+                             <div className="chat-list-item">
+                                <Row style={{flexFlow:"row"}}>
+                                    <Col span={6}>
+                                        <img className="chat-list-item-img" src={userImg}></img>
+                                    </Col>
+                                    <Col span={20}>
+                                        <p className="chat-list-item-uname">User Name</p>
+                                        <small className="chat-list-item-lastMessage">Last message from chat</small>
+                                    </Col>
+                                </Row>
+                             </div>
+
+                             <div className="chat-list-item">
+                                <Row style={{flexFlow:"row"}}>
+                                    <Col span={6}>
+                                        <img className="chat-list-item-img" src={userImg}></img>
+                                    </Col>
+                                    <Col span={20}>
+                                        <p className="chat-list-item-uname">User Name</p>
+                                        <small className="chat-list-item-lastMessage">Last message from chat</small>
+                                    </Col>
+                                </Row>
+                             </div>
+
+                             <div className="chat-list-item">
+                                <Row style={{flexFlow:"row"}}>
+                                    <Col span={6}>
+                                        <img className="chat-list-item-img" src={userImg}></img>
+                                    </Col>
+                                    <Col span={20}>
+                                        <p className="chat-list-item-uname">User Name</p>
+                                        <small className="chat-list-item-lastMessage">Last message from chat</small>
+                                    </Col>
+                                </Row>
+                             </div>
+
+                             <div className="chat-list-item">
+                                <Row style={{flexFlow:"row"}}>
+                                    <Col span={6}>
+                                        <img className="chat-list-item-img" src={userImg}></img>
+                                    </Col>
+                                    <Col span={20}>
+                                        <p className="chat-list-item-uname">User Name</p>
+                                        <small className="chat-list-item-lastMessage">Last message from chat</small>
+                                    </Col>
+                                </Row>
+                             </div>
+
+                             <div className="chat-list-item">
+                                <Row style={{flexFlow:"row"}}>
+                                    <Col span={6}>
+                                        <img className="chat-list-item-img" src={userImg}></img>
+                                    </Col>
+                                    <Col span={20}>
+                                        <p className="chat-list-item-uname">User Name</p>
+                                        <small className="chat-list-item-lastMessage">Last message from chat</small>
+                                    </Col>
+                                </Row>
+                             </div>
+
+                             <div className="chat-list-item">
+                                <Row style={{flexFlow:"row"}}>
+                                    <Col span={6}>
+                                        <img className="chat-list-item-img" src={userImg}></img>
+                                    </Col>
+                                    <Col span={20}>
+                                        <p className="chat-list-item-uname">User Name</p>
+                                        <small className="chat-list-item-lastMessage">Last message from chat</small>
+                                    </Col>
+                                </Row>
+                             </div>
+
+                             <div className="chat-list-item">
+                                <Row style={{flexFlow:"row"}}>
+                                    <Col span={6}>
+                                        <img className="chat-list-item-img" src={userImg}></img>
+                                    </Col>
+                                    <Col span={20}>
+                                        <p className="chat-list-item-uname">User Name</p>
+                                        <small className="chat-list-item-lastMessage">Last message from chat</small>
+                                    </Col>
+                                </Row>
+                             </div>
+
+                             <div className="chat-list-item">
+                                <Row style={{flexFlow:"row"}}>
+                                    <Col span={6}>
+                                        <img className="chat-list-item-img" src={userImg}></img>
+                                    </Col>
+                                    <Col span={20}>
+                                        <p className="chat-list-item-uname">User Name</p>
+                                        <small className="chat-list-item-lastMessage">Last message from chat</small>
+                                    </Col>
+                                </Row>
+                             </div>
+
+
+                             
+                           </div>
+                        </div>  
                     </Col>
                     <Col span={18}>   
-                        <div className="chat-main">
-                            Main Chat
+                        <div className="chat-main-container">
+                        <h2>Main Chat</h2>
                         </div>
                     </Col>
                 </Row>
