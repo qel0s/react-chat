@@ -4,8 +4,9 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Libre Franklin', sans-serif !important;
 }
+
 .navbar{
     color: white;
     background: rgb(16,15,24);
@@ -139,26 +140,26 @@
     padding-right: 25px;
 }
 
-.main-chat{
+.chat-area{
     overflow: auto;
     overflow-x: hidden;
     max-height: 59vh;
 }
 
-.main-chat::-webkit-scrollbar {
+.chat-area::-webkit-scrollbar {
     width: 10px;
 }
 
-.main-chat::-webkit-scrollbar-track {
+.chat-area::-webkit-scrollbar-track {
     background: transparent; 
 }
 
-.main-chat::-webkit-scrollbar-thumb {
+.chat-area::-webkit-scrollbar-thumb {
     background: #2d3a5f2c; 
     border-radius: 10px;
 } 
 
-.main-chat::-webkit-scrollbar-thumb:hover {
+.chat-area::-webkit-scrollbar-thumb:hover {
     background: #43568a; 
 }
 
@@ -199,4 +200,120 @@
 
 .message-box-interlocutor{
     color: rgb(165, 165, 165);
+}
+
+.login-screen{
+    height: 100vh;
+    color: white;
+    background: linear-gradient(90deg, rgba(16,15,24,1) 0%, rgba(21,23,39,1) 51%, rgba(16,15,24,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container{
+    background-color: #4e38a1;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.input-login{
+    font-weight: 600;
+    color: #4e38a1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 25vw;
+}
+
+.input-title{
+    margin-top: 15px;
+}
+
+.login-option-container{
+    display: flex;
+}
+
+.login-option{
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 19px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.login-option-active{
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.login-button{
+    border: none;
+    background-color: #19182b;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 25vw;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color: #282746;
+}
+
+.chat-input{
+    margin-top: 40px;
+    position:relative;
+}
+
+.main-chat-input{
+    border: none;
+    outline:none;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    color: black;
+    border-radius: 10px;
+}
+
+.cursor-pointer{
+    cursor: pointer !important;
+}
+
+.chat-input-buttons{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .nav-pp-container {
+        margin-left: 20px;
+    }
+
+    .login-button{
+        width: 50vw;
+    }
+
+    .input-login{
+        width: 50vw;
+    }
+
+    .chat-main-container {
+        background: linear-gradient(90deg, rgba(16,15,24,1) 0%, rgba(21,23,39,1) 51%, rgba(16,15,24,1) 100%);
+    }
+    .chat-main-container{
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .login-button{
+        width: 75vw;
+    }
+
+    .input-login{
+        width: 75vw;
+    }
 }
