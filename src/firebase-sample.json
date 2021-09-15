@@ -1,0 +1,13 @@
+{
+    "_comment":"Save file as firebase.json",
+
+    "firebaseConfig" : {
+    "apiKey": "",
+    "authDomain": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": "",
+    "measurementId": ""
+  }
+}

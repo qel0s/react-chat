@@ -65,7 +65,7 @@
 
 .chat-list-container{
     border-right: #20182b 2px solid;
-    padding: 30px;
+    padding: 30px 0 30px 30px;
 }   
 
 .chat-main-container{
@@ -305,6 +305,10 @@
     }
     .chat-main-container{
         padding: 10px;
+    }
+
+    .user-list-container{
+        display: none !important;
     }
 }
 

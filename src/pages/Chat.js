@@ -30,7 +30,7 @@ const Chat = () => {
 
             <div className="container">
                 <Row>
-                    <Col lg={8} sm={24}> 
+                    <Col className="user-list-container" lg={8} sm={24}> 
                         <div className="chat-list-container">
                            <div className="chat-list-header">
                               <h2>Chats</h2>
